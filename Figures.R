@@ -1,18 +1,3 @@
-# data viz for all-hands meeting: 
-
-# Intro: map of all sequences, map of E-V159A, map of NS4A-A85T.
-
-# overview of mutational landscape: genome with EVERY AA mutation. could just be a big barplot
-# with a bar for each AA in orer, marked up in Designer to show gene locations and key mutations
-# barplot of all mutations occuring in more than 1% of genomes, all in grey except E-V159A and NS4A-A85T
-# to show how NS4A-A85T may not be particularly unique in its ability to gain prominence
-#mutation co-occurance maps for NS4A-A85T and NS5-K314R, NS2A-R188K and NS4B-I240M, state level
-
-# rest of presentation is walking through questions to answer: are there regional clusters? 
-# what are there ranges and what climactic or environmental variables predict distribution?
-# When and where did each of the mutations come from? 
-#
-
 library(choroplethr)
 library(choroplethrMaps)
 library(ggplot2)
